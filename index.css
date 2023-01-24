@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  border: 1px solid brown;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: beige;
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+}
+.apps {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.apps > li {
+  margin-right: 30px;
+}
+
+.apps > li > a {
+  text-decoration: none;
+  color: rgb(5, 49, 5);
+}
+
+.helper-menu {
+  font-weight: bold;
+  font-size: 20px;
+}
+.helper-menu > li {
+  margin-right: 10px;
+}
+
+.body {
+  height: 400px;
+  margin-top: 10px;
+  background-color: blanchedalmond;
+  border: 1px solid brown;
+}
+
+.footer {
+  background-color: beige;
+  border: 1px solid brown;
+  margin-top: 10px;
+  height: 100px;
+}
