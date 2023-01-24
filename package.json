@@ -1,0 +1,29 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "description": "MakeMyTrip front-end application",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skmohammadjani/frontend-app.git"
+  },
+  "author": "Manu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skmohammadjani/frontend-app/issues"
+  },
+  "homepage": "https://github.com/skmohammadjani/frontend-app#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
